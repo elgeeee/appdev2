@@ -29,7 +29,7 @@ const ProfileDemo = () => {
             </View>
 
             <View style={styles.section}>
-              <Text style={{ fontStyle: 'italic', fontSize: 16 }}>loves learning and doing things my own way.</Text>
+              <Text style={{ fontStyle: 'italic', fontSize: 16 }}>I love learning and doing things my own way.</Text>
             </View>
     
             {/* INFO */}
