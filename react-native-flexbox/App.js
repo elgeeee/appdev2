@@ -3,14 +3,16 @@ import { StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native';
 // import Flex from './components/Flex.js';
 // import FlexDirectionBasics from './components/FlexDirection.js';
-import DirectionLayout from './components/LayoutDirection.js';
+// import DirectionLayout from './components/LayoutDirection.js';
+import JustifyContentBasics from './components/JustifyContent.js';
 
 export default function App() {
   return (
     <SafeAreaView style={{flex: 1}}>
       {/* <Flex /> */}
       {/* <FlexDirectionBasics /> */}
-      <DirectionLayout />
+      {/* <DirectionLayout /> */}
+      <JustifyContentBasics />
       <StatusBar />
     </SafeAreaView>
   );
