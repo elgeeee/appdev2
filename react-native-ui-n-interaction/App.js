@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView  } from 'react-native';
 // import LotsOfStyles from './components/Style.js';
 // import FixedDimensionsBasics from './components/FixedDimensions.js';
-import FlexDimensionsBasics from './components/FlexDimensions.js';
-
+// import FlexDimensionsBasics from './components/FlexDimensions.js';
+import PercentageDimensionsBasics from './components/PercentageDimensions.js';
 
 export default function App() {
   return (
@@ -16,7 +16,8 @@ export default function App() {
     // </View>
 
     <SafeAreaView style={{flex: 1}}>
-      <FlexDimensionsBasics/>
+      {/* <FlexDimensionsBasics/> */}
+      <PercentageDimensionsBasics />
       <StatusBar />
     </SafeAreaView>
   );
