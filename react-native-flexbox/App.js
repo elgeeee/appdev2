@@ -6,7 +6,9 @@ import { SafeAreaView } from 'react-native';
 // import DirectionLayout from './components/LayoutDirection.js';
 // import JustifyContentBasics from './components/JustifyContent.js';
 // import AlignItemsLayout from './components/AlignItems.js';
-import AlignSelfLayout from './components/AlignSelf.js';
+// import AlignSelfLayout from './components/AlignSelf.js';
+import AlignContentLayout from './components/AlignContent.js';
+
 
 export default function App() {
   return (
@@ -16,7 +18,8 @@ export default function App() {
       {/* <DirectionLayout /> */}
       {/* <JustifyContentBasics /> */}
       {/* <AlignItemsLayout /> */}
-      <AlignSelfLayout />
+      {/* <AlignSelfLayout /> */}
+      <AlignContentLayout />
       <StatusBar />
     </SafeAreaView>
   );
