@@ -87,6 +87,31 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 
+  button: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#4f65bd",
+    padding: 15,
+    borderRadius: 10,
+    marginTop: 10,
+    gap: 8
+  },
+
+  buttonText: {
+    color: "#fff",
+    fontWeight: "bold",
+  },
 
 
+  footer: {
+    flexDirection: "row",
+    justifyContent: "center",
+    marginTop: 25,
+  },
+
+  link: {
+    color: "#4A6CF7",
+    fontWeight: "bold",
+  }
 });
