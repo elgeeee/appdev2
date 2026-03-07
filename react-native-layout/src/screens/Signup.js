@@ -5,7 +5,7 @@ export default function Signup() {
   return (
     <View style={styles.container}>
 
-      <Text style={styles.title}>Create Account</Text>
+      <Text style={styles.title}>Create Your Account</Text>
 
       {/* Full Name */}
       <View style={styles.inputContainer}>
@@ -59,14 +59,14 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 30,
     justifyContent: "center",
-    backgroundColor: "#fff",
+    backgroundColor: "#e7d9ee",
   },
 
   title: {
-    fontSize: 26,
+    fontSize: 32,
     fontWeight: "bold",
     textAlign: "center",
-    marginBottom: 30,
+    marginBottom: 50,
   },
 
   inputContainer: {
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#4A6CF7",
+    backgroundColor: "#894995",
     padding: 15,
     borderRadius: 10,
     marginTop: 10,
@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
   },
 
   link: {
-    color: "#4A6CF7",
+    color: "#721c81",
     fontWeight: "bold",
   }
 
